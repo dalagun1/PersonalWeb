@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Membuat Web</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="navbar">
+		<h1 class="judul">Radya Wrahadnala</h1>
+		<ul>
+			<li><a href="#img">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#pendidikan">Pendidikan</a></li>
+			<li><a href="#jadwal kuliah">Jadwal Kuliah</a></li>
+			<li><a href="#kontak">Kontak</a></li>
+		</ul>
+	</div>
+		<!-- </h1>
+		<ul>
+			
+			
+			
+		</ul> -->
+	<div class="container">
+		<div class="image" id="img">
+			<h2 ><a href="https://unsoed.ac.id/" target="_blank">Universitas Jenderal Soedirman</a></h2>
+		</div>
+		<div class="content">
+			<div class="content1">
+				<h2 id="about">About Me</h2>
+				<p class="penulis"><a href="http://www.instagram.com/radyanala_" target="_blank">Radya Wrahadnala</a></p>
+				<p>Saya mahasiswa Universitas Jenderal Soedirman jurusan Informatika, alasan saya memilih
+        			jurusan Informatika adalah karena saya lulusan SMA jurusan MIPA
+            	  yang mana saya juga sudah suka dunia IT semenjak SD dan itu karena saya suka bermain game
+              	di warnet. Bukan hanya karena memiliki keinginan yang kuat untuk masuk jurusan Informatika
+            	UNSOED tetapi itu semua berkat doa dan dukungan dari keluarga juga yang mengantarkan saya bisa
+              	diterima di Informatika UNSOED.</p>
+			</div>
+			<div class="content2">
+			<div id="pendidikan"class="services">
+				<!--text-->
+				<div class="services-text ">
+					<h2>Pendidikan</h2>
+				</div>
+				 
+				<div class="box-container">
+				<!--- 1 --->
+					<div class="box-1">
+						<span><a href="https://www.google.com/maps/place/SDN+Sidanegara+06/@-7.7040536,109.0180065,17z/data=!3m1!4b1!4m5!3m4!1s0x2e6512b7afc07f87:0x10bbf87592b69c03!8m2!3d-7.7040536!4d109.0201952?hl=en" target="_blank"><img src="2020-10-28.jpg" alt="SDN SIDANEGARA 06" width="300px"></a></span>
+						<p class="heading">SDN SIDANEGARA 06 CILACAP</p>
+					</div>
+				<!--- 2 --->
+					<div class="box-2">
+						<span><a href="https://www.google.com/maps/place/SMP+Negeri+6+Cilacap/@-7.7109867,109.0106794,17z/data=!3m1!4b1!4m5!3m4!1s0x2e6513977b6531dd:0x8ef3223009a606d0!8m2!3d-7.7109867!4d109.0128681" target="_blank"><img src="SMPN-6-Cilacap.Jpg" alt="SMP NEGERI 6 CILACAP" width="300px" height="170px"></a></span>
+						<p class="heading">SMP NEGERI 6 CILACAP</p>
+					</div>
+				<!--- 3 --> 
+					<div class="box-3">
+						<span><a href="https://www.google.com/maps/place/SMA+Negeri+1+Cilacap/@-7.7142245,109.0032137,17z/data=!3m1!4b1!4m5!3m4!1s0x2e656d5226fb442f:0xde2c0e4940e5598f!8m2!3d-7.7142283!4d109.0054389" target="_blank"><img src="2017-10-25.jpg" alt="SMA NEGERI 1 CILACAP" width="300px" height="170px"></a></span>
+						<p class="heading">SMA NEGERI 1 CILACAP</p>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="content3">
+			<h2 id="jadwal kuliah">Jadwal Kuliah</h2>
+				<div class="tablekuliah">
+					<table border="2" cellspacing="0" cellpadding="10">
+						<tr>
+					 <th>Jam</th>
+					 <th>Senin</th>
+					 <th>Selasa</th>
+					 <th>Rabu</th>
+					 <th>Kamis</th>
+					 <th>Jumat</th>
+				</tr>
+				<tr>
+					 <td>07.00 - 07.50</td>
+					 <td></td>
+					 <td>Basis Data II</td>
+					 <td></td>
+					 <td></td>
+					 <td></td>
+				</tr>
+				<tr>
+					<td>07.55 - 08.45</td>
+					<td>Struktur Data</td>
+					<td>Basis Data II</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>08.50 - 09.40</td>
+					<td>Struktur Data</td>
+					<td></td>
+					<td></td>
+					<td>Web Design</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>09.45 - 10.35</td>
+					<td>Struktur Data</td>
+					<td></td>
+					<td>Sistem Operasi</td>
+					<td>Web Design</td>
+					<td>Probabilitas dan Statistika</td>
+				</tr>
+				<tr>
+					<td>10.40 - 11.30</td>
+					<td></td>
+					<td>Pancasila</td>
+					<td>Sistem Operasi</td>
+					<td>E-Commerce</td>
+					<td>Probabilitas dan Statistika</td>
+				</tr>
+				<tr>
+					<td>11.35 - 12.25</td>
+					<td></td>
+					<td>Pancasila</td>
+					<td>Sistem Operasi</td>
+					<td>E-Commerce</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>12.25 - 13.00 (Istirahat)</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>13.00 - 13.50</td>
+					<td>Matematika Diskrit</td>
+					<td>Jati Diri Unsoed</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>13.55 - 14.45</td>
+					<td>Matematika Diskrit</td>
+					<td>Jati Diri Unsoed</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>14.50 - 15.40</td>
+					<td>Matematika Diskrit</td>
+					<td></td>
+					<td>Praktikum Struktur Data</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>16.00 - 16.50</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>Praktikum Sistem Operasi</td>
+				</tr>
+			</div>
+			</table>
+			<br><br>
+			</div>
+
+		</div>
+		<div class="footer1">
+			<footer>
+				<p id="kontak">Kenalan Yuk!</p>
+					 
+				<!--social-->
+				<div id="Contact" class="social-icons">
+					<a href="https://www.linkedin.com/in/radya-suwarno-760a9b1b3/" target="blank"><i class="fab fa-linkedin"></i></a>
+					<a href="https://wa.wizard.id/d2cfbc"target="blank"><i class="fab fa-whatsapp"></i></a>
+					<a href="https://twitter.com/radya"target="blank"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/radyanala_/"target="blank"><i class="fab fa-instagram"></i></a>
+					
+				</div>
+			</footer>
+		 
+			<!-- social-attach-bar
+			<div class="social">
+				<a href="https://www.linkedin.com/in/radya-suwarno-760a9b1b3/"target="blank"><i class="fab fa-linkedin"></i></a>
+				<a href="https://wa.wizard.id/d2cfbc"target="blank"><i class="fab fa-whatsapp"></i></a>
+				<a href="https://twitter.com/RWrahadnala"target="blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.instagram.com/radyanala_/"target="blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/channel/UCG0ojz196Dq-Xc14NcSLkxg"target="blank"><i class="fab fa-youtube"></i></a>
+			</div> -->
+			</div>
+	</div>
+
+</body>
+</html>
